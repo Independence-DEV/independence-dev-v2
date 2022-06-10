@@ -11,6 +11,7 @@ import {
   createStyles,
   useMantineTheme,
 } from '@mantine/core';
+import internal from 'stream';
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -38,17 +39,15 @@ const useStyles = createStyles((theme) => ({
 }));
 
 interface BadgeCardProps {
+  id: string,
   image: string;
   title: string;
   country: string;
   description: string;
-  badges: {
-    emoji: string;
-    label: string;
-  }[];
+  url: string;
 }
 
-export function BadgeCard({ image, title, description, country, url }: BadgeCardProps) {
+export function BadgeCard({ id, image, title, description, country, url }: BadgeCardProps) {
   const { classes } = useStyles();
   const theme = useMantineTheme();
 
