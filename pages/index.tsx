@@ -89,7 +89,7 @@ export default function HomePage() {
 	};
 
   const items = articles.map((article) => (
-    <Grid.Col span={4} key={article.id}><BadgeCard {...article} /></Grid.Col>
+    <Grid.Col xs={12} sm={4} key={article.id}><BadgeCard {...article} /></Grid.Col>
   ));
 
   return (
