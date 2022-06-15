@@ -95,28 +95,8 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-interface FooterLinksProps {
-  data: {
-    title: string;
-    links: { label: string; link: string }[];
-  }[];
-}
-
-export function FooterLinks({ data }: FooterLinksProps) {
+export function FooterLinks() {
   const { classes } = useStyles();
-  const groups = data.map((group) => {
-    const links = group.links.map((link, index) => (
-      <Text<'a'>
-        key={index}
-        className={classes.link}
-        component="a"
-        href={link.link}
-        onClick={(event) => event.preventDefault()}
-      >
-        {link.label}
-      </Text>
-    ));
-  });
   return (
       <Container className={classes.afterFooter}>
         <Text color="dimmed" size="sm">
