@@ -8,6 +8,7 @@ import { BadgeCard2 } from '../components/BadgeCard2.tsx/BadgeCard2';
 import { StatsCardTool } from '../components/StatsCard/StatsCardTool';
 import { StatsCardCertificate } from '../components/StatsCard/StatsCardCertificate';
 import { FeaturesTitle } from '../components/FeaturesTitle/FeaturesTitle';
+import { FaqSimple } from '../components/FaqSimple/FaqSimple';
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -104,7 +105,7 @@ export default function AboutmePage() {
     "image": "banners/freelance.png",
     "title": "Web developper Freelance",
     "country": "aug 2021 - now",
-    "description": "",
+    "description": "I work mainly for a client. The missions are the maintenance and the evolution of his websites.",
     "badges": [
       { "emoji": "icons/php.png", "label": "PHP" },
       { "emoji": "icons/mysql.png", "label": "MySQL" },
@@ -129,6 +130,7 @@ export default function AboutmePage() {
           <Grid.Col xs={12} sm={4} ><BadgeCard2 {...BadgeCardProps[5]} /></Grid.Col>
         </Grid>
     </Container>
+    <FaqSimple />
     < FooterLinks />
     </>
   );
