@@ -39,7 +39,7 @@ export default function AboutmePage() {
     "image": "banners/minit_logo.png",
     "title": "Mint IT",
     "country": "apr-may 2022",
-    "description": "This project was developed for the Alyra certification (2 months). Mint IT is a Decentralized Application allowing artists to create and manage their NFT collections without writing any code. View the GitHub",
+    "description": "This project was developed for the Alyra certification (2 months). Mint IT is a Decentralized Application allowing artists to create and manage their NFT collections without writing any code. https://github.com/Mint-It/mintit",
     "badges": [
       { "emoji": "icons/react.png", "label": "React" },
       { "emoji": "icons/truffle.png", "label": "Truffle" },
@@ -51,7 +51,7 @@ export default function AboutmePage() {
     "image": "banners/defiproject.png",
     "title": "DEFI Project",
     "country": "Feb-jun 2022",
-    "description": "Protocol DEFI",
+    "description": "Launch an ERC20 token on the BNB Smart Chain. The dApp allows to buy \"Nodes\" to get rewards in the same token. I also run a BNB Smart Chain Fullnode on an AWS server.",
     "badges": [
       { "emoji": "icons/react.png", "label": "React" },
       { "emoji": "icons/hardhat.png", "label": "HardHat" },
@@ -80,7 +80,6 @@ export default function AboutmePage() {
       { "emoji": "icons/php.png", "label": "PHP" },
       { "emoji": "icons/zend.png", "label": "Zend" },
       { "emoji": "icons/talend.png", "label": "Talend Open Studio" },
-      
     ]
   },{
     "image": "banners/orangetv.png",

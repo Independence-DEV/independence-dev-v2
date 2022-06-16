@@ -39,7 +39,7 @@ export function FeaturesTitle() {
             Your next Web3 developer!
           </Title>
           <Text color="dimmed">
-            Hi,
+          During the summer of 2021, I discovered decentralized finance. Since then, I have been training in Web3 by writing smart contracts, and doing a DEFI project with a dApp.
           </Text>
         </Col>
         <Col span={12} md={7}>
@@ -91,7 +91,7 @@ export function FeaturesTitle() {
       Adaptive
       </Text>
       <Text color="dimmed" size="sm">
-        Blabla
+      I can quickly adapt to a new work environment and new technologies.
       </Text>
     </div>
     <div key="Remote">

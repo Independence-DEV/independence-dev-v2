@@ -55,8 +55,8 @@ export function FaqSimple() {
           control: classes.control,
         }}
       >
-        <Accordion.Item label="How to contact me ?">You can contact on twitter @DevIndependence or by mail : independence.dev.pro@gmail.com</Accordion.Item>
-        <Accordion.Item label="What is my price ?">$85 per hour</Accordion.Item>
+        <Accordion.Item label="How to contact me ?">You can contact me by mail independence.dev.pro@gmail.com or on twitter @DevIndependence</Accordion.Item>
+        <Accordion.Item label="What is my price ?">Depend of the projects but my hourly rate is usually $85.</Accordion.Item>
       </Accordion>
     </Container>
   );
