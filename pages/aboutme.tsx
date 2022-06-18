@@ -51,7 +51,7 @@ export default function AboutmePage() {
     "image": "banners/defiproject.png",
     "title": "DEFI Project",
     "country": "Feb-jun 2022",
-    "description": "Launch an ERC20 token on the BNB Smart Chain. The dApp allows to buy \"Nodes\" to get rewards in the same token. I also run a BNB Smart Chain Fullnode on an AWS server.",
+    "description": "Launch an ERC20 token on the BNB Smart Chain. The dApp allows to buy \"Nodes\" to get rewards in the same token. I also run a BNB Smart Chain Fullnode on an AWS server. More informations in private.",
     "badges": [
       { "emoji": "icons/react.png", "label": "React" },
       { "emoji": "icons/hardhat.png", "label": "HardHat" },
@@ -63,7 +63,7 @@ export default function AboutmePage() {
     "image": "banners/gestgym_logo.png",
     "title": "Gest'Gym",
     "country": "sep 2018 - jun 2022",
-    "description": "Gest'Gym is a web application that allows gymnastics clubs to manage their members.",
+    "description": "Gest'Gym is a web application that allows gymnastics clubs to manage their members. I have been developing this application for 4 years to match the needs of the customers.",
     "badges": [
       { "emoji": "icons/joomla.png", "label": "Joomla" },
       { "emoji": "icons/php.png", "label": "PHP" },
