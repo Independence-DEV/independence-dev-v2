@@ -39,7 +39,7 @@ export function FeaturesTitle() {
             Your next Web3 developer!
           </Title>
           <Text color="dimmed">
-          During the summer of 2021, I discovered decentralized finance. Since then, I have been training in Web3 by writing smart contracts, and doing a DEFI project with a dApp.
+          During the summer of 2021, I discovered decentralized finance. Since then, I have been training in Web3 by writing smart contracts, and doing a DEFI project with a dApp. I am ready to work with a team/company that has a long term vision and that proposes stimulating projects. You can see the languages/technologies I am comfortable with from my past experiences.
           </Text>
         </Col>
         <Col span={12} md={7}>
