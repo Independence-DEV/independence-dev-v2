@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStyles, Title, SimpleGrid, Text, Button, ThemeIcon, Grid, Col } from '@mantine/core';
+import {createStyles, Title, SimpleGrid, Text, ThemeIcon, Grid, Col, Anchor} from '@mantine/core';
 import { Certificate, MapPinOff, Stack3, FileCode } from 'tabler-icons-react';
 
 const useStyles = createStyles((theme) => ({
@@ -38,9 +38,7 @@ export function FeaturesTitle() {
           <Title className={classes.title} order={2}>
             Your next Web3 developer!
           </Title>
-          <Text color="dimmed">
-          During the summer of 2021, I discovered decentralized finance. Since then, I have been training in Web3 by writing smart contracts, and doing a DEFI project with a dApp. I am ready to work with a team/company that has a long term vision and that proposes stimulating projects. You can see the languages/technologies I am comfortable with from my past experiences.
-          </Text>
+          <Text color="dimmed">During the summer of 2021, I discovered decentralized finance. Since then, I have been training in Web3 by writing smart contracts, and doing a DEFI project with a dApp. I am ready to work with a team/company that has a long term vision and that proposes stimulating projects. You can see the languages/technologies I am comfortable with from my past experiences.</Text>
         </Col>
         <Col span={12} md={7}>
           <SimpleGrid cols={2} spacing={30} breakpoints={[{ maxWidth: 'md', cols: 1 }]}>
@@ -56,10 +54,8 @@ export function FeaturesTitle() {
       <Text size="lg" mt="sm" weight={500}>
         Full Stack
       </Text>
-      <Text color="dimmed" size="sm">
-        Thanks to my different experiences, I have a complete understanding of how applications are built. I am therefore able to build full-stack applications.
-      </Text>
-    </div>
+      <Text color="dimmed" size="sm">Thanks to my different experiences, I have a complete understanding of how applications are built. I am therefore able to build full-stack applications.</Text>
+          </div>
     <div key="Certified">
       <ThemeIcon
         size={44}
@@ -73,9 +69,9 @@ export function FeaturesTitle() {
         Certified
       </Text>
       <Text color="dimmed" size="sm">
-      Blockchain & smart contracts developer from <Text<'a'> className={classes.link} style={{display: "inline"}} component="a" href="https://alyra.fr/decouvrir-la-formation-developpeur-blockchain-alyra/" target='_blank'>Alyra</Text>.
+      Blockchain & smart contracts developer from <Anchor href="https://alyra.fr/decouvrir-la-formation-developpeur-blockchain-alyra/" target="_blank">Alyra</Anchor>.
       <br />
-      Engineer specialising in: Computer science, Networks and Telecommunications from <Text<'a'> className={classes.link} style={{display: "inline"}} component="a" href="https://www.imt-atlantique.fr/en/study/apprenticeship-engineer/science-networks-telecommunications" target='_blank'>IMT Atlantique</Text>.
+      Engineer specialising in: Computer science, Networks and Telecommunications from <Anchor href="https://www.imt-atlantique.fr/en/study/apprenticeship-engineer/science-networks-telecommunications" target="_blank">IMT Atlantique</Anchor>.
       </Text>
     </div>
     <div key="Adaptive">

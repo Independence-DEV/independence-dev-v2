@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { createStyles, Header, Group, ActionIcon, Container, Burger, useMantineColorScheme } from '@mantine/core';
 import { useBooleanToggle } from '@mantine/hooks';
 import { BrandTwitter, BrandYoutube, BrandGithub } from 'tabler-icons-react';
-import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import { SunIcon, MoonIcon } from '@modulz/radix-icons';
 import { IndependenceDEVLogo } from '../../shared/IndependenceDEVLogo';
 
@@ -70,12 +69,13 @@ const useStyles = createStyles((theme) => ({
 }));
 
 interface HeaderMiddleProps {
+  current: string,
   links: { link: string; label: string }[];
 }
 
-export function HeaderMiddle({ links }: HeaderMiddleProps) {
+export function HeaderMiddle({ current, links }: HeaderMiddleProps) {
   const [opened, toggleOpened] = useBooleanToggle(false);
-  const [active, setActive] = useState(links[0].link);
+  const [active] = useState(current);
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
   const { classes, cx } = useStyles();
 
@@ -84,10 +84,10 @@ export function HeaderMiddle({ links }: HeaderMiddleProps) {
       key={link.label}
       href={link.link}
       className={cx(classes.link, { [classes.linkActive]: active === link.link })}
-      onClick={(event) => {
+      /*onClick={(event) => {
         event.preventDefault();
         setActive(link.link);
-      }}
+      }}*/
     >
       {link.label}
     </a>
@@ -109,25 +109,25 @@ export function HeaderMiddle({ links }: HeaderMiddleProps) {
        <IndependenceDEVLogo />
 
         <Group spacing={0} className={classes.social} position="right" noWrap>
-          <ActionIcon<'a'> component="a" size="lg" target='_blank' href="https://twitter.com/DevIndependence" color="blue">
+          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://twitter.com/DevIndependence" color="blue">
             <BrandTwitter size={20} />
           </ActionIcon>
-          <ActionIcon<'a'> component="a" size="lg" target='_blank' href="https://www.youtube.com/c/IndependenceDEV" variant="hover" color="red">
+          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://www.youtube.com/c/IndependenceDEV" variant="hover" color="red">
             <BrandYoutube size={20} />
           </ActionIcon>
-          <ActionIcon<'a'> component="a" size="lg" target='_blank' href="https://github.com/Independence-DEV" variant="hover" color="gray">
+          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://github.com/Independence-DEV" variant="hover" color="gray">
             <BrandGithub size={20} />
           </ActionIcon>
           <ActionIcon
-              onClick={() => toggleColorScheme()}
-              size="xs"
-              ml="md"
-              sx={(theme) => ({
+            onClick={() => toggleColorScheme()}
+            size="xs"
+            ml="md"
+            sx={(theme) => ({
                 backgroundColor:
                   theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
                 color: theme.colorScheme === 'dark' ? theme.colors.yellow[4] : theme.colors.blue[6],
               })}
-            >
+          >
               {colorScheme === 'dark' ? (
                 <SunIcon width={20} height={20} />
               ) : (
