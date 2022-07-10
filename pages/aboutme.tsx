@@ -47,7 +47,7 @@ export default function AboutmePage() {
     image: 'banners/defiproject.png',
     title: 'DEFI Project',
     country: 'Feb-jun 2022',
-    description: 'Launch an ERC20 token on the BNB Smart Chain. The dApp allows to buy "Nodes" to get rewards in the same token. I also run a BNB Smart Chain Fullnode on an AWS server. More informations in private.',
+    description: 'Launch an ERC20 token on the BNB Smart Chain. Created a dApp DApp to give utility to the token. I also runned a BNB Smart Chain Fullnode. More informations in private.',
     badges: [
       { emoji: 'icons/react.png', label: 'React' },
       { emoji: 'icons/hardhat.png', label: 'HardHat' },
