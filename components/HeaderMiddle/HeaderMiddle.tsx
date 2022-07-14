@@ -109,13 +109,13 @@ export function HeaderMiddle({ current, links }: HeaderMiddleProps) {
        <IndependenceDEVLogo />
 
         <Group spacing={0} className={classes.social} position="right" noWrap>
-          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://twitter.com/DevIndependence" color="blue">
+          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://twitter.com/geof_dev" color="blue">
             <BrandTwitter size={20} />
           </ActionIcon>
-          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://www.youtube.com/c/IndependenceDEV" variant="hover" color="red">
+          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://www.youtube.com/c/independencedev" variant="hover" color="red">
             <BrandYoutube size={20} />
           </ActionIcon>
-          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://github.com/Independence-DEV" variant="hover" color="gray">
+          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://github.com/independence-dev" variant="hover" color="gray">
             <BrandGithub size={20} />
           </ActionIcon>
           <ActionIcon

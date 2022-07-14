@@ -55,7 +55,7 @@ export function FaqSimple() {
           control: classes.control,
         }}
       >
-        <Accordion.Item label="How to contact me ?">You can contact me by mail independence.dev.pro@gmail.com or on twitter @DevIndependence</Accordion.Item>
+        <Accordion.Item label="How to contact me ?">You can contact me by mail contact@independence-dev.com or on twitter @geof_dev</Accordion.Item>
         <Accordion.Item label="What is my price ?">Let's talk about that in private :)</Accordion.Item>
       </Accordion>
     </Container>
