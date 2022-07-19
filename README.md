@@ -1,18 +1,12 @@
-# Mantine Next Template
+# Independence DEV Website
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-next-template/generate) and
-create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
+Second version of the Website built with Mantine and Next.js.
+Available here : https://en.independence-dev.com
 
 ## Features
 
-This template comes with several essential features:
-
-- Server side rendering setup for Mantine
-- Color scheme is stored in cookie to avoid color scheme mismatch after hydration
-- Storybook with color scheme toggle
-- Jest with react testing library
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+- Index page with all the articles (call the dev.to API)
+- About me page
 
 ## npm scripts
 
