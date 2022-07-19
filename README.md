@@ -1,4 +1,4 @@
-# Independence DEV Website
+# Independence DEV Website V2
 
 Second version of the Website built with Mantine and Next.js.
 Available here : https://en.independence-dev.com
