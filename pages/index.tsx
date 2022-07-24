@@ -28,7 +28,7 @@ export default function HomePage() {
     try {
       const badgeCardProps: BadgeCardProps[] = [];
       const res = await fetch(
-          'https://dev.to/api/articles?username=devindependence'
+          'https://dev.to/api/articles?username=independencedev'
       );
       const data = await res.json();
 
