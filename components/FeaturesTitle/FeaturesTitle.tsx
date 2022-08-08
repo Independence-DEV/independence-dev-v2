@@ -69,7 +69,7 @@ export function FeaturesTitle() {
         Certified
       </Text>
       <Text color="dimmed" size="sm">
-      Blockchain & smart contracts developer from <Anchor href="https://alyra.fr/decouvrir-la-formation-developpeur-blockchain-alyra/" target="_blank">Alyra</Anchor>.
+        <Anchor href="https://certificate.bcdiploma.com/check/B4157A6FB7C55A88368421C684229AC6B6338917274F68FD24C6BBF2A81B5841SjhwY1J1bnl3NTAxcVV3cURpSmtRQ1pKQ1Q1cy9vbllvR2FtRm53dGk4WkpQRENv" target="_blank">Blockchain Developer</Anchor> from Alyra.
       <br />
       Engineer specialising in: Computer science, Networks and Telecommunications from <Anchor href="https://www.imt-atlantique.fr/en/study/apprenticeship-engineer/science-networks-telecommunications" target="_blank">IMT Atlantique</Anchor>.
       </Text>
