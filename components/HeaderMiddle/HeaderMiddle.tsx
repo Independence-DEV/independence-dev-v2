@@ -115,7 +115,7 @@ export function HeaderMiddle({ current, links }: HeaderMiddleProps) {
           <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://www.youtube.com/c/independencedev" variant="hover" color="red">
             <BrandYoutube size={20} />
           </ActionIcon>
-          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://github.com/independence-dev" variant="hover" color="gray">
+          <ActionIcon<'a'> component="a" size="lg" target="_blank" href="https://github.com/geof-dev" variant="hover" color="gray">
             <BrandGithub size={20} />
           </ActionIcon>
           <ActionIcon
